@@ -1,4 +1,6 @@
-# geopandas_lab
+![logo](./images/ubdc_logo.png)
+
+# Intro to geospatial analysis using Python
 
 This is repo containing materials for masters lab
 
