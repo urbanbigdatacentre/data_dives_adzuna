@@ -1,0 +1,14 @@
+name: gis_lab
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - jupyterlab
+  - geopandas
+  - notebook
+  - contextily
+  - descartes
+  - geoplot
+prefix: C:\Users\ng93n\AppData\Local\Continuum\anaconda3\envs\gis_lab
+
