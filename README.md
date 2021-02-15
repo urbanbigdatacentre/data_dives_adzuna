@@ -9,11 +9,19 @@ The lab is going to be run in jupyter notebook
 
 ## Lab requirements
 
- - Python 3.7
+Please create new environmet for this lab using  **Python 3.7**
  
-Using Anaconda please install the following 
+Using [Anaconda](https://docs.anaconda.com/anaconda/install/)  please install the following 
 
 ```python
+
+#Create new environment
+
+conda create --name myenv python=3.7
+
+#Make sure that you are going to work in newly created environment
+
+conda activate myenv
 
 # Install jupyter lab
 conda install jupyterlab -c conda-forge
@@ -26,6 +34,12 @@ conda install -c conda-forge contextily
 conda install -c conda-forge pyarrow
 conda install -c conda-forge geoplot
 conda install -c conda-forge seaborn
+conda install -c conda-forge descartes 
+
+
+#Alternatively run the installation in one line
+
+conda install -c conda-forge jupyterlab matplotlib mapclassify contextily pyarrow geoplot seaborn descartes 
 
 #Start the  jupyter lab
 
