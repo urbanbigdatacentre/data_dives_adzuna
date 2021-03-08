@@ -5,7 +5,7 @@
 This is repo containing materials for data dives series using Adzuna data.
 
 
-The lab is going to be run in jupyter notebook
+The taining is going to be run in jupyter notebook
 
 ## Lab requirements
 
