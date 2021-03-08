@@ -2,7 +2,7 @@
 
 # Intro to geospatial analysis using Python
 
-This is repo containing materials for masters lab
+This is repo containing materials for data dives series using Adzuna data.
 
 
 The lab is going to be run in jupyter notebook
