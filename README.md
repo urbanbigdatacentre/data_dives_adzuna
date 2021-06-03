@@ -46,3 +46,10 @@ conda install -c conda-forge jupyterlab geopandas matplotlib mapclassify context
 jupyter lab
 
 ```
+
+## Known issues 
+
+**OSError: could not find or load spatialindex_c-64.dll** error when trying to import geopandas
+
+[Solution](https://github.com/geopandas/geopandas/issues/1812)
+``` conda install -c conda-forge rtree=0.9.3 ``` 
